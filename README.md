@@ -73,6 +73,14 @@ http://127.0.0.1:5000
 ```
 
 ---
+🔗 Previous Versions
+
+This project builds upon previous iterations:
+
+ISRO_IROC_Web - Initial implementation.
+
+ISRO_IROC_Webinterface - Earlier UI and backend refinements.
+----
 
 ## 🎯 How It Works
 1. `listen.py` **receives telemetry data** from the UAV via MAVLink.
