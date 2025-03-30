@@ -57,7 +57,8 @@ param_types = [
     'GLOBAL_POSITION_INT',  
     'RANGEFINDER',
     'RAW_IMU',  
-    'SCALED_IMU2'  
+    'SCALED_IMU2' ,
+    'LOCAL_POSITION_NED'
 ]
 
 # Wait for first heartbeat
