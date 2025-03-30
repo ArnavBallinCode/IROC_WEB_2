@@ -73,15 +73,6 @@ http://127.0.0.1:5000
 ```
 
 ---
-🔗 Previous Versions
-
-This project builds upon previous iterations:
-
-ISRO_IROC_Web - Initial implementation.
-
-ISRO_IROC_Webinterface - Earlier UI and backend refinements.
-
-----
 
 ## 🎯 How It Works
 1. `listen.py` **receives telemetry data** from the UAV via MAVLink.
@@ -89,6 +80,11 @@ ISRO_IROC_Webinterface - Earlier UI and backend refinements.
 3. `server.py` **serves** the web interface using Flask.
 4. `script.js` **fetches and updates** data dynamically without page reloads.
 5. **Styled UI** displays real-time telemetry with a futuristic look.
+
+## 🔗 Previous Versions
+This project builds upon previous iterations:
+- **[ISRO_IROC_Web](https://github.com/your-username/ISRO_IROC_Web)** - Initial implementation.
+- **[ISRO_IROC_Webinterface](https://github.com/your-username/ISRO_IROC_Webinterface)** - Earlier UI and backend refinements.
 
 ## 🚀 Future Enhancements
 - **WebSocket implementation** for even faster updates.
@@ -102,6 +98,8 @@ ISRO_IROC_Webinterface - Earlier UI and backend refinements.
 | No MAVLink data | Check serial port settings in `listen.py`. |
 | Data not updating | Ensure `listen.py` is running. |
 
+## 📜 License
+This project is open-source under the **MIT License**.
 
 ---
 
