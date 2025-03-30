@@ -83,8 +83,8 @@ http://127.0.0.1:5000
 
 ## 🔗 Previous Versions
 This project builds upon previous iterations:
-- **[ISRO_IROC_Web](https://github.com/your-username/ISRO_IROC_Web)** - Initial implementation.
-- **[ISRO_IROC_Webinterface](https://github.com/your-username/ISRO_IROC_Webinterface)** - Earlier UI and backend refinements.
+- **[ISRO_IROC_Web](https://github.com/ArnavBallincode/ISRO_IROC_Web)** - Initial implementation.
+- **[ISRO_IROC_Webinterface](https://github.com/ArnavBallinCode/ISRO_IROC_Webinterface)** - Earlier UI and backend refinements.
 
 ## 🚀 Future Enhancements
 - **WebSocket implementation** for even faster updates.
