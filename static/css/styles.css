@@ -1,0 +1,113 @@
+/* ----- GLOBAL STYLES ----- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif; /* Space-inspired futuristic font */
+}
+
+body {
+    background: radial-gradient(circle at center, #0a0a0a 30%, #000000 100%);
+    color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+/* ----- HEADER ----- */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #00E1FF;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-shadow: 0 0 25px rgba(0, 225, 255, 0.8);
+    letter-spacing: 2px;
+}
+
+/* ----- DASHBOARD CONTAINER ----- */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 24px;
+    width: 95vw;
+    padding: 20px;
+}
+
+/* ----- PARAMETER BOX ----- */
+.param {
+    background: linear-gradient(145deg, rgba(25, 25, 25, 0.95), rgba(10, 10, 10, 0.9));
+    backdrop-filter: blur(18px);
+    border-radius: 18px;
+    padding: 20px;
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    box-shadow: 0px 6px 20px rgba(0, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    min-height: 280px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* ----- PARAMETER TITLE ----- */
+.param strong {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #FFD700; /* Gold for high contrast */
+    text-shadow: 0px 0px 15px rgba(255, 215, 0, 0.7);
+    margin-bottom: 14px;
+}
+
+/* ----- PARAMETER TABLE ----- */
+.param-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.param-table th, .param-table td {
+    padding: 10px 15px;
+    text-align: left;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.param-table th {
+    color: #00E1FF;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.param-table td {
+    color: #D6D6D6;
+}
+
+/* ----- HOVER EFFECT ----- */
+.param:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 10px 30px rgba(0, 255, 255, 0.6);
+}
+
+/* ----- RESPONSIVE GRID ----- */
+@media (max-width: 1200px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
