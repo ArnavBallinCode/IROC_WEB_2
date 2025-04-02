@@ -18,6 +18,46 @@ body {
     overflow-x: hidden;
 }
 
+.param-special-top-box {
+    background: linear-gradient(145deg, rgba(35, 35, 55, 0.9), rgba(65, 75, 105, 0.8));
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 25px;
+    border: 1px solid rgba(255, 105, 180, 0.3); /* Soft pink border for a pop of color */
+    box-shadow: 0px 10px 30px rgba(255, 105, 180, 0.4); /* Soft pink glow effect */
+    display: flex;
+    flex-direction: column;
+    min-height: 280px;
+    transition: all 0.3s ease-in-out;
+    color: #fff; /* White text for a clean contrast */
+    font-family: 'Roboto', sans-serif; /* Clean and modern font */
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.param-special-top-box:hover {
+    transform: scale(1.03); /* Slightly enlarge on hover */
+    box-shadow: 0px 15px 35px rgba(255, 105, 180, 0.6); /* Increased shadow on hover */
+}
+
+.param-special-top-box h2, .param-special-top-box p {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.param-special-top-box p {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+
+
 /* ----- HEADER ----- */
 h1 {
     font-size: 2.5rem;
