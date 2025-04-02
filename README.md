@@ -98,10 +98,10 @@ This project builds upon previous iterations:
 | No MAVLink data | Check serial port settings in `listen.py`. |
 | Data not updating | Ensure `listen.py` is running. |
 
-## 📜 License
-This project is open-source under the **MIT License**.
-
 ---
 
 🔥 **IROC_WEB_2 brings real-time UAV telemetry to the web with a professional, futuristic interface. Enjoy seamless monitoring!**
+
+
+
 
