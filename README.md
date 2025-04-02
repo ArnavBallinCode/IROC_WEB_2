@@ -1,4 +1,4 @@
-# IROC_WEB_2
+# IROC_WEB_INTERFACE
 
 ## 🚀 Project Overview
 **IROC_WEB_2** is an advanced web-based telemetry and monitoring system for real-time MAVLink data visualization. It is designed to interface with UAVs using Jetson and Pixhawk, leveraging MAVROS and MAVLink for robust data communication. The system processes real-time telemetry parameters and displays them in an intuitive and professional **space-themed** web UI.
@@ -13,7 +13,7 @@
 
 ## 📁 Project Structure
 ```
-IROC_WEB_2/
+IROC_WEB_INTERFACE/
 │── params/                 # JSON files storing MAVLink data
 │── static/
 │   ├── css/
